@@ -22,7 +22,7 @@ const httpLink = concat(authLink, createHttpLink({
 }));
 
 const wsLink = new GraphQLWsLink(createWsClient({
-  url: 'ws://chat-app-server-0qdt.onrender.com/graphql',
+  url: 'https://chat-app-server-0qdt.onrender.com/graphql',
   connectionParams: () => ({ accessToken: getAccessToken() }),
 }));
 
