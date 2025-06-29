@@ -60,12 +60,12 @@ cd chat-app-client
 npm install
 ```
 
-### Usage
+### Використання
 
-Start the dev-server using the following command:
+Запустіть дев-сервер за допомогою наступної команди:
 
 ```shell
 npm start
 ```
 
-Server will be located at **http://localhost:3000/chat-app-client/**
+Сервер буде доступний за адресою **http://localhost:3000/chat-app-client/**
